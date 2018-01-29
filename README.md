@@ -1,6 +1,6 @@
 # game
 
-    Other than some basic knowledge of html gained from fiddling around on websites in the early 2000’s, 
+Other than some basic knowledge of html gained from fiddling around on websites in the early 2000’s, 
 I initially had no experience with computer science or web programming. For my undergraduate degree, I went 
 to Smith College and double majored in English and economics. I enjoyed this combination of subjects, but like 
 others I found myself aimless after graduation. While working a series of administrative jobs, I found myself 
