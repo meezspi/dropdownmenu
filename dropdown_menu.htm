@@ -1,0 +1,78 @@
+<!DOCTYPE html> <html> <head> <style> ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #5b33a5;
+}
+ li {
+     float: left;
+     font-family:Helvetica;
+     font-size:15px;
+}
+ li a, .dropbar {
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 15px 15px;
+     text-decoration: none;
+}
+ li a:hover, .dropdown:hover .dropbar {
+     background-color: #45277c;
+}
+ li.dropdown {
+     display: inline-block;
+}
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #e3dcef;
+     min-width: 150px;
+     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+}
+ .dropdown-content a {
+     color: black;
+     padding: 15px 15px;
+     display: block;
+     text-align: left;
+}
+ .dropdown-content a:hover {
+    background-color: #cdc7d8
+}
+ .dropdown:hover .dropdown-content {
+     display: block;
+}
+ </style>
+</head>
+<body>
+
+<ul>
+    <li class="dropdown"><a href="http://disney.wikia.com/wiki/Snow_White_(character)" target="_blank" class="dropbar">Snow White</a>
+        <div class="dropdown-content">
+            <a href="http://disney.wikia.com/wiki/Happy" target="_blank">Happy</a>
+            <a href="http://disney.wikia.com/wiki/Doc" target="_blank">Doc</a>
+            <a href="http://disney.wikia.com/wiki/Sleepy" target="_blank">Sleepy</a>
+            <a href="http://disney.wikia.com/wiki/Grumpy" target="_blank">Grumpy</a>
+            <a href="http://disney.wikia.com/wiki/Dopey" target="_blank">Dopey</a>
+            <a href="http://disney.wikia.com/wiki/Bashful" target="_blank">Bashful</a>
+            <a href="http://disney.wikia.com/wiki/Sneezy" target="_blank">Sneezy</a>
+        </div>
+    </li>
+    <li class="dropdown"><a href="http://disney.wikia.com/wiki/The_Lion_King" target="blank" class="dropbar">The Lion King</a>
+        <div class="dropdown-content">
+            <a href="http://disney.wikia.com/wiki/Simba" target="_blank">Simba</a>
+            <a href="http://disney.wikia.com/wiki/Nala" target="_blank">Nala</a>
+            <a href="http://disney.wikia.com/wiki/Timon" target="_blank">Timon</a>
+            <a href="http://disney.wikia.com/wiki/Pumba" target="_blank">Pumbaa</a>
+            <a href="http://disney.wikia.com/wiki/Mufasa" target="_blank">Mufasa</a>
+            <a href="http://disney.wikia.com/wiki/Rafiki" target="_blank">Rafiki</a>
+            <a href="http://disney.wikia.com/wiki/Scar" target="_blank">Scar</a>
+        </div>
+    </li>
+</ul>
+
+</body>
+
+</html>
+
